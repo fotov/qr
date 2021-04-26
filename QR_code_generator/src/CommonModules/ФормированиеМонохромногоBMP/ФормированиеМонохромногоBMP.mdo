@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="882cbb06-5037-47e4-b090-3e7f4aff11e6">
+  <name>ФормированиеМонохромногоBMP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование монохромного BMP</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+</mdclass:CommonModule>

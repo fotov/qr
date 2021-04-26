@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90de20c7-4d3c-48c0-83e5-ce8795c87a9b">
+  <producedTypes>
+    <objectType typeId="fd145f54-63df-4d53-8010-20b099e5019a" valueTypeId="ad469221-f319-49cc-b986-2eaea7afba7d"/>
+    <managerType typeId="757cec53-e4f7-432e-bc40-45675dd9fd23" valueTypeId="3c90ad10-76fe-425a-9d26-60fd2751e2e3"/>
+  </producedTypes>
+  <name>ГенерацияQRКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация QR кода</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГенерацияQRКода.Form.Форма</defaultForm>
+  <forms uuid="74b05acc-5a5d-4d3f-a7e1-3f427a19ec83">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

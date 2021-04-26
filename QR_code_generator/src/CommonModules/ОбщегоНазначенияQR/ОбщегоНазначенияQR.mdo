@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1de211e8-9ffe-426a-a6e4-7f45907d6999">
+  <name>ОбщегоНазначенияQR</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общего назначения QR</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+</mdclass:CommonModule>

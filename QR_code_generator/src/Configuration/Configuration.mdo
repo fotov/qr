@@ -27,7 +27,6 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
-  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.17</compatibilityMode>
   <languages uuid="6e58d8e7-716c-40c7-8b34-c1481e3c18d6">
     <name>Русский</name>
@@ -37,4 +36,9 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonModules>CommonModule.ФормированиеQRКода</commonModules>
+  <commonModules>CommonModule.ФормированиеБайтКоррекции</commonModules>
+  <commonModules>CommonModule.ФормированиеМонохромногоBMP</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияQR</commonModules>
+  <dataProcessors>DataProcessor.ГенерацияQRКода</dataProcessors>
 </mdclass:Configuration>
