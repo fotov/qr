@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9cfdb79-ed02-4c2e-b5fb-01307934c2d4">
+  <name>QR_code_generator</name>
+  <synonym>
+    <key>ru</key>
+    <value>QR code generator</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b86334f9-d11a-43d7-8944-7a3290ec2bec"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="57483ff0-30bf-4f34-9438-6dffb5422319"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a3933b04-3369-4a2b-af15-d2bacd00d754"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="7256632e-94fc-4c0e-a5c4-24b4372e46df"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="102a2837-250e-44a9-af71-a4aa14d18182"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="5b56e7b9-10ee-4135-9139-1c8fa6089bde"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="7288e74c-b9f5-4e7e-968d-9004d739ac35"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>l1c.ru/qr1c</vendor>
+  <version>1.0.1.1</version>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="6e58d8e7-716c-40c7-8b34-c1481e3c18d6">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+</mdclass:Configuration>
