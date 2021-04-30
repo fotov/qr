@@ -1,90 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
-    <name>КоэффициентУвеличения</name>
-    <id>1</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>КоэффициентУвеличения</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>КоэффициентУвеличенияРасширеннаяПодсказка</name>
-      <id>3</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>КоэффициентУвеличенияКонтекстноеМеню</name>
-      <id>2</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>RadioButtonField</type>
-    <editMode>Enter</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>1</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>2</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>3</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>4</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>5</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>6</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>7</value>
-        </value>
-      </choiceList>
-      <choiceList>
-        <value xsi:type="core:NumberValue">
-          <value>8</value>
-        </value>
-      </choiceList>
-    </extInfo>
-  </items>
-  <items xsi:type="form:FormField">
     <name>НомерМаски</name>
     <id>4</id>
     <visible>true</visible>
@@ -92,8 +8,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>НомерМаски</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>НомерМаски</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>НомерМаскиРасширеннаяПодсказка</name>
@@ -176,8 +94,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ТекстКодирования</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ТекстКодирования</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ТекстКодированияРасширеннаяПодсказка</name>
@@ -219,7 +139,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>АдресКартинки</name>
+    <name>Картинка</name>
     <id>12</id>
     <title>
       <key>ru</key>
@@ -230,11 +150,13 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>АдресКартинки</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>АдресКартинки</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
-      <name>АдресКартинкиРасширеннаяПодсказка</name>
+      <name>КартинкаРасширеннаяПодсказка</name>
       <id>14</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -249,7 +171,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>АдресКартинкиКонтекстноеМеню</name>
+      <name>КартинкаКонтекстноеМеню</name>
       <id>13</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -268,7 +190,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <horizontalStretch>true</horizontalStretch>
       <verticalStretch>true</verticalStretch>
-      <zoomable>true</zoomable>
+      <pictureSize>Proportionally</pictureSize>
       <fileDragMode>AsFileRef</fileDragMode>
     </extInfo>
   </items>
@@ -314,10 +236,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>OnOpen</event>
-    <name>ПриОткрытии</name>
-  </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>

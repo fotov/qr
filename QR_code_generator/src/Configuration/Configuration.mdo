@@ -18,7 +18,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>l1c.ru/qr1c</vendor>
-  <version>1.0.1.1</version>
+  <version>1.0.1.2</version>
   <requiredMobileApplicationPermissions>
     <permission>AllowOSBackup</permission>
     <use>true</use>
